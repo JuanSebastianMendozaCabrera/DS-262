@@ -14,10 +14,10 @@ public final class Face {
 
     /** Normal de cada cara, y ejes u (derecha en la textura) y v (abajo en la textura). */
     public static final int[][] NORMAL = {{0, 0, 1}, {0, 0, -1}, {-1, 0, 0}, {1, 0, 0}, {0, 1, 0}, {0, -1, 0}};
-    public static final int[][] UDIR   = {{1, 0, 0}, {-1, 0, 0}, {0, 0, 1}, {0, 0, -1}, {1, 0, 0}, {-1, 0, 0}};
-    public static final int[][] VDIR   = {{0, -1, 0}, {0, -1, 0}, {0, -1, 0}, {0, -1, 0}, {0, 0, 1}, {0, 0, 1}};
+    public static final int[][] UDIR = {{1, 0, 0}, {-1, 0, 0}, {0, 0, 1}, {0, 0, -1}, {1, 0, 0}, {1, 0, 0}};
+    public static final int[][] VDIR = {{0, -1, 0}, {0, -1, 0}, {0, -1, 0}, {0, -1, 0}, {0, 0, 1}, {0, 0, -1}};
     /** Esquina (0/1 por eje) donde está el texel (0,0) de cada cara. */
-    public static final int[][] ORIG   = {{0, 1, 1}, {1, 1, 0}, {0, 1, 0}, {1, 1, 1}, {0, 1, 0}, {1, 0, 0}};
+    public static final int[][] ORIG = {{0, 1, 1}, {1, 1, 0}, {0, 1, 0}, {1, 1, 1}, {0, 1, 0}, {0, 0, 1}};
 
     /** Sombreado por cara en la vista 3D. */
     public static final double[] SHADE = {0.8, 0.8, 0.6, 0.6, 1.0, 0.5};

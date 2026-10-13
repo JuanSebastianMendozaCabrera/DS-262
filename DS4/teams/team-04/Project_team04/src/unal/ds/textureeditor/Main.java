@@ -1,11 +1,10 @@
-//package unal.ds.textureeditor;
+package unal.ds.textureeditor;
 
-//import unal.ds.textureeditor.view.MainFrame;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
+import unal.ds.textureeditor.view.MainFrame;
 
-//import javax.swing.SwingUtilities;
-//import javax.swing.UIManager;
-
-//public class Main {
+public class Main {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             try { UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName()); }
