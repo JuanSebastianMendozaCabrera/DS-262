@@ -1,4 +1,4 @@
-package unal.ds.model;
+package unal.ds.textureeditor.model;
 
 public class ColorSpaceUtils {
     
